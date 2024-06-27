@@ -1,0 +1,29 @@
+:root{
+   --logo:url('./imagens/logopadariamondini.jpg') 
+}
+nav{
+  background-color: burlywood;
+  .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    a{
+      color: black;
+      font-size: xx-large;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 500ms;
+    }
+    a:hover{
+      transform: scale(1.1);
+    }
+  }
+}
+.logo{
+  background-image: var(--logo);
+  width: 180px;
+  height: 190px;
+  background-size: cover;
+}
+
+
