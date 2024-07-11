@@ -26,4 +26,28 @@ nav{
   background-size: cover;
 }
 
-
+.media{
+  background-color: black;
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top: 3px;
+  right: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly ;
+  align-items: center;
+  
+  .medialink{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 500ms;
+  }
+  .medialink:hover{
+    transform:scale(1.1)
+  }
+  #wa{background-image:url('./imagens/wa.png')}
+  #instagram{background-image: url('./imagens/instagram.png');}
+}
