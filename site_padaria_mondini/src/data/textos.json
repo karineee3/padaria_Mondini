@@ -1,0 +1,8 @@
+{
+    "ptbr":{
+        "links": ["Produtos","Pedidos","Quem somos", "Trabalhe conosco"]
+    },
+    "eng":{
+        "links": ["Products","Requests","Who we are", "work with us"]
+    }
+}
