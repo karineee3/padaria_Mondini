@@ -1,0 +1,27 @@
+.produtos{
+    border-color: black;
+    border-style: solid;
+    height: 400px;
+    width: 500px;
+
+    .produto{
+
+        figure{
+            border-color: darksalmon;
+            border-style: solid;
+            height: 140px;
+            width: 220px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+        figure:hover{
+            transform: scale(1.3);
+        }
+
+        
+        #doces1{
+            background-image: url('../imagens/bolodebrigadeiro.webp');
+        }
+    }
+}
