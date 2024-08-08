@@ -53,9 +53,12 @@
         }
 
         #doces1{
-            background-image: url('../imagens/bolodebrigadeiro.webp');
+            background-image: url('../imagens/bolosnopote.jpeg');
         }
-
+        
+        #doces2{
+            background-image: url('../iamgens/docinhosfesta.webp');
+        }
         #salgados2{
             background-image: url('../imagens/fotosalgadopadaria.jpeg');
         }
