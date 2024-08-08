@@ -7,12 +7,14 @@ function Salgados(){
             <div className="produtos">
                 <div className="produto">
                     <figure id={`salgados${2}`}></figure>
-                    <span>Salgados bons e deliciosos</span>
+                    <span>Cento de salgados</span>
 
 
-                </div>
+                </div>  
+                {/* Fim da div produto */}
 
             </div>
+            {/* Fim da div produtos */}
         </div>
     )
 }export default Salgados
