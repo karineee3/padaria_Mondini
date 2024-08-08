@@ -1,8 +1,9 @@
 .produtos{
     border-color: black;
     border-style: solid;
-    height: 200px;
+    height: max-content;
     width: 300px;
+    padding-bottom:20px;
 
     .produto{
 
@@ -18,7 +19,19 @@
         figure:hover{
             transform: scale(1.3);
         }
-
+        .seletores{
+            display:flex;
+            flex-direction:row;
+            justify-content: space-between;
+        }
+        .pedido{
+            height: 40px;
+            background-color: darksalmon;
+            color:white;
+            font-weight:bolder;
+            margin-top:20px;
+            margin-left:60px
+        }
         
         #doces1{
             background-image: url('../imagens/bolodebrigadeiro.webp');
