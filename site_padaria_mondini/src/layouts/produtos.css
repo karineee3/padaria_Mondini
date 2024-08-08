@@ -4,6 +4,8 @@
     height: max-content;
     width: 300px;
     padding-bottom:20px;
+    display: flex;
+    flex-direction: row;
 
     .produto{
 
@@ -39,6 +41,9 @@
 
         #salgados2{
             background-image: url('../imagens/fotosalgadopadaria.jpeg');
+        }
+        #salgados3{
+            background-image: url('../imagens/tortassalgadas.webp');
         }
     }
 }

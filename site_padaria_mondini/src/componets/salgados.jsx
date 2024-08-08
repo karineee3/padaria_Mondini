@@ -23,6 +23,12 @@ function Salgados() {
                     <button className="pedido">Adicionar ao carrinho</button>
                 </div>
                 {/* Fim da div produto */}
+                <div className='produto'>
+                    <figure id={`salgados${3}`}></figure>
+                    <span>Torta salgada</span>
+
+
+                </div>
 
             </div>
             {/* Fim da div produtos */}
