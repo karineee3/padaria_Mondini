@@ -39,7 +39,28 @@ function Doces(){
                         <button className="pedido"> Adicionar ao carrinho</button>
                     </div>
                    </div>
+                      {/* Fim da div produto */}
 
+                      <div className='produto'>
+                        <figure id={`doces${3}`}></figure>
+                        <h4>TRUFAS</h4>
+                        <div className="seletores">
+                            <span>Brigadeiro</span> <input type="number" name="" id="" />
+                        </div>
+                        <div className="seletores">
+                            <span>Leite Ninho</span> <input type="number"  name="" id="" />
+                        </div>
+                         <div className="seletores">
+                            <span>Nutella</span> <input type="number" name="" id="" />
+                         </div>
+                         <div className="seletores">
+                            <span>Morango</span> <input type="number" name="" id="" />
+                         </div>
+                         <button className="pedido"> Adicionar ao carrinho</button>
+                        
+                            </div>
+                        
+                      
 
                 
         </div>

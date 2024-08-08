@@ -57,8 +57,14 @@
         }
         
         #doces2{
-            background-image: url('../iamgens/docinhosfesta.webp');
+            background-image: url('../imagens/docinhosfesta.jpg');
         }
+        
+        #doces3{
+            background-image: url('../imagens/trufas.jpeg');
+        }
+       
+        
         #salgados2{
             background-image: url('../imagens/fotosalgadopadaria.jpeg');
         }
@@ -67,6 +73,12 @@
         }
         #salgados4{
             background-image: url('../imagens/esfirra.jpg')
+        }
+        #bebidas1{
+            background-image: url('../imagens/receitas-de-sucos.webp');
+        }
+        #bebidas2{
+            background-image: url('../imagens/images\ \(1\).jpeg');
         }
     }
 }
