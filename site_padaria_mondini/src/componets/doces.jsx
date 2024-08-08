@@ -6,7 +6,7 @@ function Doces(){
             <div className="produtos">
                 <div className="produto">
                     <figure id={`doces${1}`}></figure>
-                    <span>Bolo de chocolate com brigadeiro</span>
+                    <h4>Bolo de chocolate com brigadeiro</h4>
                 </div>
             </div>
             

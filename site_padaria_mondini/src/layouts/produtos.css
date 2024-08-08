@@ -2,12 +2,21 @@
     border-color: black;
     border-style: solid;
     height: max-content;
-    width: 300px;
+    width: max-content;
     padding-bottom:20px;
     display: flex;
     flex-direction: row;
+    h4{
+        text-align: center;
+    }
 
     .produto{
+        border-style: solid;
+        border-color: black;
+        padding: 40px;
+        .titulo{
+            text-align: center;
+        }
 
         figure{
             border-color: darksalmon;
@@ -34,7 +43,15 @@
             margin-top:20px;
             margin-left:60px
         }
-        
+        .opcao1{
+            background-color: rgba(192, 106, 72, 0.832);
+            text-align: center;
+        }
+        .opcao2{
+            background-color: rgb(249, 192, 171);
+            text-align: center;
+        }
+
         #doces1{
             background-image: url('../imagens/bolodebrigadeiro.webp');
         }
@@ -44,6 +61,9 @@
         }
         #salgados3{
             background-image: url('../imagens/tortassalgadas.webp');
+        }
+        #salgados4{
+            background-image: url('../imagens/esfirra.jpg')
         }
     }
 }

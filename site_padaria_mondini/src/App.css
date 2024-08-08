@@ -51,3 +51,8 @@ nav{
   #wa{background-image:url('./imagens/wa.png')}
   #instagram{background-image: url('./imagens/instagram.png');}
 }
+.footer{
+  background-color: darksalmon;
+  height: 100px;
+  text-align: center;
+}
