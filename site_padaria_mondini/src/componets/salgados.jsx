@@ -60,6 +60,27 @@ function Salgados() {
 
             </div>
             {/* Fim da div produtos */}
+
+            <div className='produto'>
+                <figure id={`salgados${5}`}></figure>
+                <h4>Pasteis</h4>
+                <div className="seletores">
+                    <span>Carne</span> <input type="number" name="" id="" />
+                </div>
+
+                <div className="seletores">
+                    <span>Queijo</span> <input type="number" name="" id="" />
+                </div>
+
+                <div className="seletores">
+                    <span>Frango</span> <input type="number" name="" id="" />
+                </div>
+
+                <div className="seletores">
+                    <span>Camarão</span> <input type="number" name="" id="" />
+                </div>
+                <button className="pedido"> Adicionar ao carrinho</button>
+            </div>
         </div>
     )
 } export default Salgados

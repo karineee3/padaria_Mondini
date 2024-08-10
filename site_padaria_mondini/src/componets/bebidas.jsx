@@ -61,8 +61,10 @@ function Bebidas(){
                             <div className="seletores"> 
                                 <span>Chá de gengibre</span> <input type="number" name="" id="" />
                             </div>
-                        
+                            
+                        <button className="pedido"> Adicionar ao carrinho</button>
                         </div>
+                                 
 
             </div>
         </div>
